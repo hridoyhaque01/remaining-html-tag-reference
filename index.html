@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Defines the document type -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html tag reference</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- for extarnal resources -->
+
+    <section>
+      <object data="pages/about.html" width="500" height="150"></object>
+
+      <!-- order lists  -->
+      <ol>
+        <li>apple</li>
+        <li>mango</li>
+        <li>orange</li>
+        <li>banana</li>
+      </ol>
+
+      <!-- unorder lists  -->
+
+      <ul>
+        <li>apple</li>
+        <li>mango</li>
+        <li>orange</li>
+        <li>banana</li>
+      </ul>
+
+      <!-- optgroup  -->
+
+      <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="german Cars">
+          <option value="mercedes" selected>Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+
+      <!-- optgroup  -->
+      <!-- <object class="audio" data="audio/audio.mp3">
+      <param name="autoplay" value="true" />
+    </object> -->
+      <br />
+      <br />
+
+      <!-- picture  -->
+      <picture>
+        <source media="(min-width:650px)" srcset="images/car.jpg" />
+        <source media="(min-width:450px)" srcset="images/forest.jpg" />
+        <img src="images/crime.jpg" alt="car" style="width: auto" />
+      </picture>
+
+      <pre>
+Lorem ipsum    dolor sit amet consectetur,       adipisicing elit. Delectus, soluta.</pre
+      >
+
+      <!-- progress -->
+
+      <progress id="file" value="25" max="100">25</progress>
+
+      <!-- q tag for short quotation  -->
+
+      <p>
+        Lorem ipsum <q>dolor sit amet, consectetur adipisicing elit.</q> Dicta
+        ab quisquam quia.
+      </p>
+
+      <p><s>Only 50 ticket left!</s></p>
+      <p>SOLD OUT</p>
+      <!-- samp  -->
+      <!-- samp element define sample output from a computer program   -->
+
+      <p><samp>File not found.</samp><br />Press F1 to continue</p>
+    </section>
+
+    <section>
+      <!-- small tag  -->
+
+      <small>this is small tag</small>
+      <br />
+      <br />
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+      <br />
+      <strong>this is strong tag</strong>
+
+      <p>this text contains <sup>subscript</sup> text</p>
+
+      <svg class="circle">
+        <circle cx="140" cy="100" r="80"></circle>
+      </svg>
+    </section>
+
+    <br />
+
+    <table class="table">
+      <caption>
+        table
+      </caption>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="form-group">
+      <textarea name="message" placeholder="*message"></textarea>
+    </div>
+    <br />
+
+    <time>
+      Open from <time>10:00</time> to <time>21:00</time> every weekday
+    </time>
+
+    <p>Lorem, ipsum dolor sit amet consectetur <u>adipisicing</u> elit.</p>
+
+    <noscript> your browser does not support javascript </noscript>
+  </body>
+</html>
