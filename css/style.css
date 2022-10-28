@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(245, 245, 245);
   font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +15,29 @@ ol {
 
 ul {
   list-style: circle;
+}
+
+.signin {
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  padding: 30px 0;
+}
+
+.signin a {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: rgb(64, 71, 173);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+
+section {
+  margin: 10px 40px;
 }
 
 #cars {
